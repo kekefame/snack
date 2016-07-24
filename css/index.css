@@ -1,0 +1,88 @@
+body{
+	background-image: radial-gradient(#C57F27,#BD4517);
+}
+.z{
+	width: 610px;
+	height: 610px;
+	position: fixed;
+	top:0;
+	left: 300px;
+}
+.box{
+	width: 600px;
+	height: 600px;
+	/*border: 1px solid #ccc;*/
+	margin: 0px auto;
+/*	background: #ccc;*/
+	border-right: none;
+	border-bottom: none;
+	position: absolute;
+	bottom: 90px;
+	/*background-image: linear-gradient();*/
+}
+.block{
+	width: 29px;
+	height: 29px;
+	margin: 0 1px 1px 0;
+	background:#3E3E40;
+	float: left;
+	position: relative;
+}
+.she{
+	background-image: linear-gradient(#e4753f,#f38f16,#f88851);
+	/*background-color: #C57F27;*/
+	/*background-image: url(../img/j.jpg);*/
+}
+.shiwu{
+	background-image: linear-gradient(#e4653f,#f35f16,#f84851);
+	/*background-color: #BD4517;*/
+	/*background-image: url(../img/food.png);*/
+}
+#jg{
+	width: 250px;
+	height: 40px;
+	font-size: 22px;
+	line-height: 40px;
+	border-radius: 20%;
+	border: 1px solid black;
+	margin: 1px auto;
+	position: relative;
+	top: 300px;
+	background-image: linear-gradient(#e4753f,#f35f16,#f88851);
+	z-index: 200;
+	opacity: 0;
+	/*display: inline-block;*/
+}
+#jgg{
+	width: 250px;
+	height: 40px;
+	font-size: 22px;
+	line-height: 40px;
+	border-radius: 20%;
+	border: 1px solid black;
+	margin: 1px auto;
+	position: relative;
+	top: 100px;
+	background-image: linear-gradient(#e4753f,#f35f16,#f88851);
+	z-index: 200;
+	opacity: 0;
+	/*display: inline-block;*/
+}
+.tit{
+	position: fixed;
+	left: 120px;
+	top:150px; 
+	width: 30px;
+	height:1000px;
+	line-height: 80px;
+	border: 1xp solid black;
+	font-size: 60px;
+	font-weight: 10px;
+	font-style: italic;
+}
+.banner{
+	width: 400px;
+	height: 590px;
+	left: 900px; 
+	position: fixed;
+}
